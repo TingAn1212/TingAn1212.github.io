@@ -3,7 +3,7 @@ async function sleep(time){
 }
 async function onStart(){
     while (true){
-        await sleep(200);
+        await sleep(100);
         console.log("Spawn")
     }
 }
