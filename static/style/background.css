@@ -1,5 +1,13 @@
 #background{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: #282A35;
+    position: fixed;
+    z-index: 0;
+}
+
+.background-item{
+    position: fixed;
+    z-index: 1;
+    background-color: #505157;
 }
