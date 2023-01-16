@@ -1,3 +1,3 @@
 $(function(){
-    $("#includeBackground").load("index.html"); 
+    $("#includeBackground").load("background.html"); 
 });
