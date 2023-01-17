@@ -53,3 +53,7 @@
 #sidebar-control:hover{
     background-color: #ffffff49;
 }
+
+#sidebar-content{
+    display: none;
+}
