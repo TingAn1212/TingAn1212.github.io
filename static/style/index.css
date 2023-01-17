@@ -31,6 +31,7 @@
     position: fixed;
     height: inherit;
     width: 30vw;
+    z-index: 100;
 }
 
 #sidebar-control{
