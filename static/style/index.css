@@ -53,11 +53,3 @@
 #sidebar-control:hover{
     background-color: #ffffff49;
 }
-
-#sidebar-control:hover > #bar-v{
-    height: 50%;
-    margin-top: 25%;
-}
-#sidebar-control:hover > #bar-h{
-    margin-top: -25.5%;
-}
