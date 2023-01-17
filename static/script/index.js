@@ -14,6 +14,6 @@ function toggle(){
         open = true;
         $("#bar-v").css("height","0");
         $("#bar-v").css("margin-top","50%");
-        $("#bar-h").css("margin-top","-50%");
+        $("#bar-h").css("margin-top","0");
     }
 }
