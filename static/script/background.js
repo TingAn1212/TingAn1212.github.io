@@ -1,4 +1,5 @@
 var total = 0;
+var cd = 10;
 async function sleep(time){
     await new Promise(r => setTimeout(r, time));
 }
@@ -13,7 +14,7 @@ function rng(start,stop){
 async function onStart(){
     while (true){
         await sleep(100);
-        if (rng(1,25) == 2){
+        if (rng(1,15) == 2 && cd < 0){
             if (total < 5){
                 var item = $("<div class='spawn'></div>");
                 $(item).css("margin-top",randomCoord()+"px");
@@ -24,7 +25,10 @@ async function onStart(){
                 });
                 $("#background").append(item);
                 total++;
+                cd = 10;
             }
+        }else{
+            cd--;
         }
     }
 }
