@@ -21,6 +21,6 @@ function toggle(){
 }
 
 function select(item){
-    $(".sidebar-item").css("background-solor","none");
-    $(item).css("background-solor","#ffffff90");
+    $(".sidebar-item").css("background-color","none");
+    $(item).css("background-color","#ffffff90");
 }
