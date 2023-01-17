@@ -5,3 +5,8 @@
     z-index: 3;
     padding: 1rem;
 }
+
+#sidebar{
+    height: inherit;
+    width: 30vw;
+}
