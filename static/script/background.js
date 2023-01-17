@@ -13,8 +13,8 @@ function rng(start,stop){
 async function onStart(){
     while (true){
         await sleep(100);
-        if (rng(1,15) == 2){
-            if (total < 7){
+        if (rng(1,25) == 2){
+            if (total < 5){
                 var item = $("<div class='spawn'></div>");
                 $(item).css("margin-top",randomCoord()+"px");
                 $(item).css("margin-left","100vw");
