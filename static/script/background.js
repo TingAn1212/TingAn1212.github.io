@@ -10,10 +10,11 @@ function randomCoord(){
 async function onStart(){
     while (true){
         await sleep(100);
-        if (total < 15){
+        if (total < 7){
             var item = $("<div class='spawn'></div>");
             $(item).css("top",randomCoord()+"px");
-            $(item).css("left","0");
+            $(item).css("left","100vw");
+            $(item).animate({left:"-20vh"},"slow");
             $("#background").append(item);
             total++;
         }
