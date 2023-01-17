@@ -4,12 +4,15 @@ async function sleep(time){
 function randomCoord(){
     let start = 10;
     let stop = screen.height-42;
-    return start+(Math.random()*stop);
+    return String(Math.round(start+(Math.random()*stop)));
 }
 async function onStart(){
     while (true){
         await sleep(100);
-        console.log(randomCoord());
+        var item = $("<div class='spawn'></div>");
+        $(item).css("top",randomCoord());
+        $(item).css("left","0");
+        $("#background").append(item);
     }
 }
 onStart();

@@ -11,3 +11,9 @@
     z-index: 1;
     background-color: #505157;
 }
+
+.spawn{
+    height: 32px;
+    background-color: rgb(108, 108, 112);
+    position:relative;
+}
