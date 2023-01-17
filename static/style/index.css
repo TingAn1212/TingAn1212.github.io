@@ -36,7 +36,8 @@
 #sidebar-control #bar-h{
     width: 100%;
     height: 10%;
-    top: -55%
+    top: -55%;
+    transition: 0s !important;
 }
 
 #info{
