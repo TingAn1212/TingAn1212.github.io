@@ -7,6 +7,13 @@
 }
 
 #sidebar{
+    position: relative;
     height: inherit;
     width: 30vw;
+}
+
+#info{
+    position: relative;
+    height: inherit;
+    width: auto;
 }
