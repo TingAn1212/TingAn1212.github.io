@@ -1,3 +1,4 @@
+var total = 0;
 async function sleep(time){
     await new Promise(r => setTimeout(r, time));
 }
@@ -9,10 +10,13 @@ function randomCoord(){
 async function onStart(){
     while (true){
         await sleep(100);
-        var item = $("<div class='spawn'></div>");
-        $(item).css("top",randomCoord());
-        $(item).css("left","0");
-        $("#background").append(item);
+        if (total < 15){
+            var item = $("<div class='spawn'></div>");
+            $(item).css("top",randomCoord()+"px");
+            $(item).css("left","0");
+            $("#background").append(item);
+            total++;
+        }
     }
 }
 onStart();
