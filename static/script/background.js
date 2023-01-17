@@ -32,7 +32,7 @@ async function onStart(){
                 $(item).css("font-size",size+"px");
                 $(item).css("margin-top",randomCoord()+"px");
                 $(item).css("margin-left","100vw");
-                $(item).animate({'marginLeft':"-20vw"},10000, "linear",function(){
+                $(item).animate({'marginLeft':"-100vw"},6000, "linear",function(){
                     total--;
                     this.remove();
                 });
