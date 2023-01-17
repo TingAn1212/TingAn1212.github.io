@@ -13,7 +13,7 @@ async function onStart(){
         if (total < 7){
             var item = $("<div class='spawn'></div>");
             $(item).css("top",randomCoord()+"px");
-            $(item).animate({left:"-20vh"},5000);
+            $(item).animate({left:"-20vw"},5000);
             $("#background").append(item);
             total++;
         }
