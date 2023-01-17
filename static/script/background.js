@@ -14,7 +14,10 @@ async function onStart(){
             var item = $("<div class='spawn'></div>");
             $(item).css("top",randomCoord()+"px");
             $(item).css("left","100vw");
-            $(item).animate({left:"50vw"},5000);
+            $(item).animate({left:"-20vh"},10000,function(){
+                total--;
+                $(item).remove();
+            });
             $("#background").append(item);
             total++;
         }
