@@ -27,13 +27,13 @@
 }
 
 #sidebar-control #bar-v{
-    left: -55%;
+    left: 45%;
     width: 10%;
     height: 100%;
 }
 
 #sidebar-control #bar-h{
-    top: 45%;
+    top: -55%;
     width: 100%;
     height: 10%;
 }
