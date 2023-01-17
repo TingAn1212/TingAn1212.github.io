@@ -8,7 +8,7 @@ function randomCoord(){
     return String(Math.round(start+(Math.random()*(stop-start))));
 }
 function rng(start,stop){
-    return Math.round(start+(Math,random()*(stop-start)));
+    return Math.round(start+(Math.random()*(stop-start)));
 }
 async function onStart(){
     while (true){
