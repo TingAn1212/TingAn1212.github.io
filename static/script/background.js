@@ -32,10 +32,17 @@ async function onStart(){
                 $(item).css("font-size",size+"px");
                 $(item).css("margin-top",randomCoord()+"px");
                 $(item).css("margin-left","100vw");
-                $(item).animate({'marginLeft':"-100vw"},6000, "linear",function(){
-                    total--;
-                    this.remove();
-                });
+                if (mobile()){
+                    $(item).animate({'marginLeft':"-100vw"},7500, "linear",function(){
+                        total--;
+                        this.remove();
+                    });
+                }else{
+                    $(item).animate({'marginLeft':"-100vw"},15000, "linear",function(){
+                        total--;
+                        this.remove();
+                    });
+                }
                 $("#background").append(item);
                 total++;
                 cd = 10;
