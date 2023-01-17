@@ -14,9 +14,25 @@
 
 #sidebar-control{
     position: relative;
-    width: calc(3rem + 5vw);
-    height: calc(3rem + 5vw);
+    width: calc(3rem + 3vw);
+    height: calc(3rem + 3vw);
     margin-bottom: 1rem;
+    padding: calc((3rem + 3vw) / 10);
+}
+
+#sidebar-control .sidebar-bar{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#sidebar-control #bar-v{
+    width: 10%;
+    height: 80%;
+}
+
+#sidebar-control #bar-h{
+    width: 80%;
+    height: 10%;
 }
 
 #info{
