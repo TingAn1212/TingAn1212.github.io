@@ -25,7 +25,7 @@ async function onStart(){
             $(spawn).text(randomBin());
         }
         if (rng(1,15) == 2 && cd < 0){
-            if (total < 5){
+            if (total < 10){
                 var item = $("<div class='spawn'>"+randomBin()+"</div>");
                 var size = rng(24,32);
                 $(item).css("height",size+"px");
