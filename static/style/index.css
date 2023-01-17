@@ -27,6 +27,7 @@
 }
 
 #bar-v{
+    margin-top: 0%;
     left: 45%;
     width: 10%;
     height: 100%;
@@ -49,8 +50,8 @@
 
 #sidebar-control:hover > #bar-v{
     height: 50%;
-    top: 25%;
+    margin-top: 25%;
 }
 #sidebar-control:hover > #bar-h{
-    margin-top: 0;
+    margin-top: -5%;
 }
