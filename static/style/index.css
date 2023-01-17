@@ -55,8 +55,8 @@
 }
 
 #sidebar-control:hover > #bar-v{
-    height: 75%;
-    margin-top: 12.5%;
+    height: 50%;
+    margin-top: 25%;
 }
 #sidebar-control:hover > #bar-h{
     margin-top: -44.5%;
