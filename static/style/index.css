@@ -73,8 +73,9 @@
     height: fit-content;
     font-size: 36px;
     font-weight: bold;
-    color: #ffffff49;
+    color: #ffffff;
     font-family: 'bolded';
+    cursor: pointer;
 }
 
 .sidebar-item:hover{
