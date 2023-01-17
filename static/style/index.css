@@ -37,7 +37,7 @@
     width: 100%;
     height: 10%;
     margin-top: -55%;
-    transition: 0s !important;
+    transition: 1s;
 }
 
 #info{
@@ -51,6 +51,6 @@
     height: 50%;
     top: 25%;
 }
-/* #sidebar-control:hover > #bar-h{
-    top: 0;
-} */
+#sidebar-control:hover > #bar-h{
+    margin-top: 0;
+}
