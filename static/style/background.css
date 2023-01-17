@@ -16,5 +16,5 @@
     height: 32px;
     width: 32px;
     background-color: rgb(108, 108, 112);
-    position:relative;
+    position: absolute;
 }
