@@ -9,7 +9,7 @@ function randomCoord(){
 async function onStart(){
     while (true){
         await sleep(100);
-        console.log(randomCoord);
+        console.log(randomCoord());
     }
 }
 onStart();
