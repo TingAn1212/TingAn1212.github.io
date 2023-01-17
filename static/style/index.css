@@ -1,3 +1,13 @@
+@font-face {
+    font-family: bolded;
+    src: url("../assets/AmericanCaptain-MdEY.otf");
+}
+
+@font-face {
+    font-family: typo;
+    src: url("../assets/Typographica-Blp5.ttf");
+}
+
 #main{
     position: fixed;
     width: 100vw;
@@ -58,13 +68,15 @@
     display: none;
 }
 
-#sidebar-item{
+.sidebar-item{
     padding: 5px;
     height: fit-content;
     font-size: 36px;
     font-weight: bold;
+    color: #ffffff49;
+    font-family: 'bolded';
 }
 
-#sidebar-item:hover{
+.sidebar-item:hover{
     background-color: #ffffff49;
 }
