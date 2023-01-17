@@ -12,9 +12,9 @@ async function onStart(){
         await sleep(100);
         if (total < 7){
             var item = $("<div class='spawn'></div>");
-            $(item).css("top",randomCoord()+"px");
-            $(item).css("left","100vw");
-            $(item).animate({left:"0vw"},10000,function(){
+            $(item).css("margin-top",randomCoord()+"px");
+            $(item).css("margin-left","100vw");
+            $(item).animate({'marginTop':"0vw"},10000,function(){
                 total--;
                 this.remove();
             });
