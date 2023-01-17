@@ -21,6 +21,9 @@ function randomBin(){
 async function onStart(){
     while (true){
         await sleep(100);
+        for (var spawn of $(".spawn")){
+            $(spawn).text(randomBin());
+        }
         if (rng(1,15) == 2 && cd < 0){
             if (total < 5){
                 var item = $("<div class='spawn'>"+randomBin()+"</div>");
