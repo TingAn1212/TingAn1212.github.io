@@ -14,8 +14,8 @@
 
 #sidebar-control{
     position: relative;
-    width: calc(3rem + 1vw);
-    height: calc(3rem + 1vw);
+    width: calc(2rem + 1vw);
+    height: calc(2rem + 1vw);
     margin-bottom: 1rem;
     padding: calc((3rem + 3vw) / 10);
 }
@@ -30,6 +30,7 @@
     left: 45%;
     width: 10%;
     height: 100%;
+    transition: 1s;
 }
 
 #sidebar-control #bar-h{
@@ -43,4 +44,9 @@
     height: inherit;
     width: calc(70vw - 2rem);
     margin-left: 30vw;
+}
+
+#sidebar-control > #bar-v{
+    height: 50%;
+    margin-top: 25%;
 }
