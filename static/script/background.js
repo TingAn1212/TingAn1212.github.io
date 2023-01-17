@@ -14,7 +14,7 @@ async function onStart(){
             var item = $("<div class='spawn'></div>");
             $(item).css("margin-top",randomCoord()+"px");
             $(item).css("margin-left","100vw");
-            $(item).animate({'marginTop':"0vw"},10000,function(){
+            $(item).animate({'marginLeft':"0vw"},10000,function(){
                 total--;
                 this.remove();
             });
