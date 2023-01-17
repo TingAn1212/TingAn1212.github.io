@@ -9,7 +9,7 @@ function toggle(){
     }else{
         //open
         open = true;
-        $("bar-v").css("height","0");
-        $("bar-v").css("margin-top","50%");
+        $("#bar-v").css("height","0");
+        $("#bar-v").css("margin-top","50%");
     }
 }
