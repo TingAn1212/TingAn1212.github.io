@@ -36,7 +36,7 @@
 #bar-h{
     width: 100%;
     height: 10%;
-    top: -55%;
+    margin-top: -55%;
     transition: 0s !important;
 }
 
@@ -51,6 +51,6 @@
     height: 50%;
     top: 25%;
 }
-#sidebar-control:hover > #bar-h{
+/* #sidebar-control:hover > #bar-h{
     top: 0;
-}
+} */
