@@ -18,12 +18,14 @@
     height: calc(2rem + 1vw);
     margin-bottom: 1rem;
     padding: calc((3rem + 3vw) / 10);
+    border-radius: 1rem;
 }
 
 #sidebar-control .sidebar-bar{
     position: relative;
     background-color: #FFFFFF;
     border-radius: 5px;
+    transition: 1s;
 }
 
 #bar-v{
@@ -48,10 +50,14 @@
     margin-left: 30vw;
 }
 
+#sidebar-control:hover{
+    background-color: #ffffff49;
+}
+
 #sidebar-control:hover > #bar-v{
     height: 75%;
     margin-top: 12.5%;
 }
 #sidebar-control:hover > #bar-h{
-    margin-top: -47.5%;
+    margin-top: -45%;
 }
