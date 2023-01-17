@@ -19,3 +19,8 @@ function toggle(){
         $("#sidebar-content").slideToggle(500);
     }
 }
+
+function select(item){
+    $(".sidebar-item").css("background-solor","none");
+    $(item).css("background-solor","#ffffff90");
+}
