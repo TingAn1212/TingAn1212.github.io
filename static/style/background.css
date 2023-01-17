@@ -15,7 +15,6 @@
 .spawn{
     height: 32px;
     width: 32px;
-    left: 100vw;
     background-color: rgb(108, 108, 112);
     position:relative;
 }
