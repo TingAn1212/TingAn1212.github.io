@@ -14,8 +14,8 @@
 
 #sidebar-control{
     position: relative;
-    width: 5rem;
-    height: 5rem;
+    width: calc(3rem + 5vw);
+    height: calc(3rem + 5vw);
     margin-bottom: 1rem;
 }
 
