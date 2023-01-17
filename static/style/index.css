@@ -10,10 +10,12 @@
 
 @media only screen and (max-width: 700px){
     #sidebar{
-        width: 100vw !important;
+        width: calc(100% - 2rem) !important;
     }
     #info{
         margin-left: 0 !important;
+        width: calc(100% - 2rem) !important;
+        margin-top: calc(3rem + 1vw);
     }
 }
 
