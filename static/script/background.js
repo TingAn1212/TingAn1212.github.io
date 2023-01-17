@@ -11,12 +11,19 @@ function randomCoord(){
 function rng(start,stop){
     return Math.round(start+(Math.random()*(stop-start)));
 }
+function randomBin(){
+    var bin = "";
+    for (let i=0;i<8;i++){
+        bin += String(rng(0,1));
+    }
+    return bin;
+}
 async function onStart(){
     while (true){
         await sleep(100);
         if (rng(1,15) == 2 && cd < 0){
             if (total < 5){
-                var item = $("<div class='spawn'></div>");
+                var item = $("<div class='spawn'>"+randomBin()+"</div>");
                 $(item).css("margin-top",randomCoord()+"px");
                 $(item).css("margin-left","100vw");
                 $(item).animate({'marginLeft':"-20vw"},10000, "linear",function(){
