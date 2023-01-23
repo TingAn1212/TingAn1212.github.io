@@ -24,4 +24,7 @@ function toggle(){
 function select(item){
     $(".sidebar-item").css("background-color","");
     $(item).css("background-color","#ffffff90");
+    $(".info-content").css("display","none");
+    $("#"+$(item).data("target")).css("display","");
+    console.log($(item).data("target"))
 }
