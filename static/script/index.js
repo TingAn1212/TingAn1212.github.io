@@ -1,11 +1,12 @@
 var enable = true;
+var open = false;
 
 $(function(){
     $("#includeBackground").load("background.html"); 
     $("#info").append($("<div>").load("about-me.html"));
     $("#info").append($("<div>").load("my-story.html")); 
 });
-var open = false;
+
 function toggle(){
     if (open){
         //close
