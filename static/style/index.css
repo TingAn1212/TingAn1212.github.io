@@ -93,3 +93,7 @@
 .sidebar-item:hover{
     background-color: #ffffff49;
 }
+
+.hidden{
+    display: none;
+}
