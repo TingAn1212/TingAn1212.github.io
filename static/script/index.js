@@ -25,8 +25,8 @@ function toggle(){
 async function select(item){
     $(".sidebar-item").css("background-color","");
     $(item).css("background-color","#ffffff90");
-    $(".info-content").fadeOut(500);
-    await new Promise(r => setTimeout(r, 500));
-    $("#"+$(item).data("target")).fadeIn(500);
+    $(".info-content").fadeOut(500,function(){
+        $("#"+$(item).data("target")).fadeIn(500);
+    });
     console.log($(item).data("target"))
 }
