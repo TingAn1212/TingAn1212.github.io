@@ -8,6 +8,11 @@
     src: url("../assets/Typographica-Blp5.ttf");
 }
 
+@font-face {
+    font-family: futura;
+    src: url("../assets/futura\ medium\ bt.ttf");
+}
+
 @media only screen and (max-width: 700px){
     #sidebar{
         width: calc(100% - 2rem) !important;
@@ -100,6 +105,6 @@
 
 .info-content{
     padding: 1rem;
-    font-family: 'typo';
+    font-family: 'futura';
     color: #ffffff;
 }
