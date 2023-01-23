@@ -24,7 +24,7 @@ function toggle(){
 function select(item){
     $(".sidebar-item").css("background-color","");
     $(item).css("background-color","#ffffff90");
-    $(".info-content").css("display","none");
-    $("#"+$(item).data("target")).css("display","");
+    $(".info-content").fadeOut();
+    $("#"+$(item).data("target")).fadeIn();
     console.log($(item).data("target"))
 }
