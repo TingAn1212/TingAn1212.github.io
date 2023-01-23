@@ -1,5 +1,6 @@
 $(function(){
     $("#includeBackground").load("background.html"); 
+    $("#info").load("about-me.html"); 
 });
 var open = false;
 function toggle(){
