@@ -97,3 +97,9 @@
 .hidden{
     display: none;
 }
+
+.info-content{
+    padding: 1rem;
+    font-family: 'typo';
+    color: #ffffff;
+}
