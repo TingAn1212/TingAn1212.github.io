@@ -22,10 +22,11 @@ function toggle(){
     }
 }
 
-function select(item){
+async function select(item){
     $(".sidebar-item").css("background-color","");
     $(item).css("background-color","#ffffff90");
-    $(".info-content").fadeOut();
-    $("#"+$(item).data("target")).fadeIn();
+    $(".info-content").fadeOut(500);
+    await new Promise(r => setTimeout(r, 500));
+    $("#"+$(item).data("target")).fadeIn(500);
     console.log($(item).data("target"))
 }
