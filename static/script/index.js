@@ -31,7 +31,9 @@ async function select(item){
         $(item).css("background-color","#ffffff90");
         $(".info-content").fadeOut(500);
         await new Promise(r => setTimeout(r, 500));
-        $("#"+$(item).data("target")).fadeIn(500,function(){enable = true});
+        $("#"+$(item).data("target")).fadeIn(500);
+        await new Promise(r => setTimeout(r, 500));
+        enable = true;
         console.log($(item).data("target"));
     }
 }
