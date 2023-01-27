@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="static/frameworks/jquery3.6.3.js"></script>
     <script src="static/script/index.js"></script>
-    <style rel="stylesheet" href="static/style/index.css"></style>
+    <link rel="stylesheet" href="static/style/index.css"></link>
+    <link rel="stylesheet" href="static/style/universal.css"></link>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧾</text></svg>">
 </head>
 <body>
-    <div id="includeBackground"></div>
+    <div id="includeBackground">
+        <!-- Background is inserted here -->
+    </div>
+    <div id="main">
+        <div id="sidebar">
+            <div id="sidebar-control" onclick="toggle()">
+                <div class="sidebar-bar" id="bar-v"></div>
+                <div class="sidebar-bar" id="bar-h"></div>
+            </div>
+            <div id="sidebar-content">
+                <div class="sidebar-item" data-target="1" onclick="select(this)" style="background-color: #FFFFFF90">About Me</div>
+                <div class="sidebar-item" data-target="2" onclick="select(this)">My Story</div>
+                <div class="sidebar-item" data-target="3" onclick="select(this)">My Strength</div>
+                <div class="sidebar-item" data-target="4" onclick="select(this)">My Projects</div>
+                <div class="sidebar-item" data-target="5" onclick="select(this)">Contact Me</div>
+            </div>
+        </div>
+        <div id="info">
+            <!-- contents come here -->
+        </div>
+    </div>
 </body>

@@ -1,4 +1,110 @@
-body{
-    padding: 0;
-    margin: 0;
+@font-face {
+    font-family: bolded;
+    src: url("../assets/AmericanCaptain-MdEY.otf");
+}
+
+@font-face {
+    font-family: typo;
+    src: url("../assets/Typographica-Blp5.ttf");
+}
+
+@font-face {
+    font-family: futura;
+    src: url("../assets/futura\ medium\ bt.ttf");
+}
+
+@media only screen and (max-width: 700px){
+    #sidebar{
+        width: calc(100% - 2rem) !important;
+    }
+    #info{
+        margin-left: 0 !important;
+        width: calc(100% - 2rem) !important;
+        margin-top: calc(3rem + 1vw);
+    }
+}
+
+#main{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    padding: 1rem;
+}
+
+#sidebar{
+    position: fixed;
+    height: inherit;
+    width: 30vw;
+    z-index: 100;
+}
+
+#sidebar-control{
+    position: relative;
+    width: calc(2rem + 1vw);
+    height: calc(2rem + 1vw);
+    margin-bottom: 1rem;
+    padding: calc((3rem + 3vw) / 10);
+    border-radius: 1rem;
+}
+
+#sidebar-control .sidebar-bar{
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#bar-v{
+    margin-top: 0%;
+    left: 45%;
+    width: 10%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#bar-h{
+    width: 100%;
+    height: 10%;
+    margin-top: -55%;
+    transition: 0.5s;
+}
+
+#info{
+    position: relative;
+    height: inherit;
+    width: calc(70vw - 2rem);
+    margin-left: 30vw;
+}
+
+#sidebar-control:hover{
+    background-color: #ffffff49;
+}
+
+#sidebar-content{
+    display: none;
+}
+
+.sidebar-item{
+    padding: 10px;
+    height: fit-content;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'bolded';
+    cursor: pointer;
+}
+
+.sidebar-item:hover{
+    background-color: #ffffff49;
+}
+
+.hidden{
+    display: none;
+}
+
+.info-content{
+    padding: 1rem;
+    font-family: 'futura';
+    color: #ffffff;
 }
