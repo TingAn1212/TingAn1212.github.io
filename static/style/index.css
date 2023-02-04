@@ -34,7 +34,7 @@
 
 #sidebar{
     position: fixed;
-    height: inherit;
+    height: fit-content;
     width: 30vw;
     z-index: 100;
 }

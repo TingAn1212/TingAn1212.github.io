@@ -1,6 +1,6 @@
 @media only screen and (max-width: 700px){
     .header-p2 img{
-        width: 100%;
+        width: 100% !important;
     }
 }
 
@@ -21,6 +21,7 @@
 .header-p1 div h1{
     position:absolute;
     bottom:0;
+    font-size: calc(3rem + 3vw);
 }
 
 .header-p2{
