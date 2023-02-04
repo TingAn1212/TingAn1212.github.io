@@ -14,11 +14,13 @@
 }
 
 .header-p1 div{
+    position: relative;
     height: 50%;
 }
 
 .header-p1 div h1{
-    vertical-align: text-bottom;
+    position:absolute;
+    bottom:0;
 }
 
 .header-p2{
