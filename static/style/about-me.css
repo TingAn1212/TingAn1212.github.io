@@ -1,0 +1,15 @@
+@media only screen and (max-width: 700px){
+    
+}
+
+.flex-header{
+    display:flex;
+}
+
+.header-p1{
+    width: 50%;
+}
+
+.header-p2{
+    width: 50%;
+}

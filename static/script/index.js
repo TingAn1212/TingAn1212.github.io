@@ -38,6 +38,5 @@ async function select(item){
         $("#"+$(item).data("target")).fadeIn(500);
         await new Promise(r => setTimeout(r, 500));
         enable = true;
-        console.log($(item).data("target"));
     }
 }
