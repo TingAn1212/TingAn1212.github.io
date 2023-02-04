@@ -4,6 +4,7 @@
 
 .flex-header{
     display:flex;
+    height: fit-content;
 }
 
 .header-p1{
@@ -11,5 +12,9 @@
 }
 
 .header-p2{
+    width: 50%;
+}
+
+.header-p2 img{
     width: 50%;
 }
