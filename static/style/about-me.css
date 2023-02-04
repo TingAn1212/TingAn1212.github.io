@@ -1,5 +1,7 @@
 @media only screen and (max-width: 700px){
-    
+    .header-p2 img{
+        width: 100%;
+    }
 }
 
 .flex-header{
@@ -9,6 +11,14 @@
 
 .header-p1{
     width: 50%;
+}
+
+.header-p1 *{
+    height: 50%;
+}
+
+.header-p1 h1{
+    vertical-align: text-bottom;
 }
 
 .header-p2{
