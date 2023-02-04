@@ -13,11 +13,11 @@
     width: 50%;
 }
 
-.header-p1 *{
+.header-p1 div{
     height: 50%;
 }
 
-.header-p1 h1{
+.header-p1 div h1{
     vertical-align: text-bottom;
 }
 
