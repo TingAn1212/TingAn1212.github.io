@@ -32,6 +32,9 @@
     .sidebar-item{
         font-weight: lighter !important;
     }
+    .scroll{
+        height: 80vh !important;
+    }
     
 }
 
