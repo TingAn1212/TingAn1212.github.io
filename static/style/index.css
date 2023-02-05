@@ -29,7 +29,7 @@
     ::-webkit-scrollbar{
         width: 0.25rem;
     }
-    #sidebar-item{
+    .sidebar-item{
         font-weight: lighter;
     }
     
