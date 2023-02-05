@@ -29,6 +29,9 @@
     ::-webkit-scrollbar{
         width: 0.25rem;
     }
+    #sidebar-content{
+        font-family: "typo";
+    }
     
 }
 
