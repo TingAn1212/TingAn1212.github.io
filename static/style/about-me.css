@@ -42,5 +42,6 @@
     margin-top: 0.5rem;
     width: 75%;
     font-size: 1.2rem;
+    height: 50%;
     overflow-y: scroll;
 }
