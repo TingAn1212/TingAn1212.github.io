@@ -47,3 +47,12 @@
 .image img{
     width: 100%;
 }
+
+.divider{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    height: 3px;
+    margin-bottom: 1rem;
+}
