@@ -30,7 +30,7 @@
         width: 0.25rem;
     }
     .sidebar-item{
-        font-weight: lighter;
+        font-weight: lighter !important;
     }
     
 }
