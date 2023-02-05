@@ -5,6 +5,7 @@
 
     .main-body{
         width: 100% !important;
+        font-size: 1rem !important;
     }
 }
 
@@ -40,4 +41,5 @@
     width: 100%;
     margin-top: 0.5rem;
     width: 75%;
+    font-size: 1.2rem;
 }
