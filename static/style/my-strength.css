@@ -34,10 +34,9 @@
 
 .text{
     position: absolute;
-    width: fit-content;
     top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    transform: translateY(-50%);
 }
 
 .image-right{
