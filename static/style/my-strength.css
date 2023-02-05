@@ -3,6 +3,7 @@
 }
 
 .flex-container{
+    position: relative;
     display: flex;
     height: fit-content;
     width: 100%;
@@ -17,6 +18,19 @@
 }
 
 .flex-item{
-    width: 50%;
+    width: 45%;
     padding: 1rem;
+}
+
+.text{
+    position: absolute;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.image{
+    width: 100%;
 }
