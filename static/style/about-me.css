@@ -2,6 +2,10 @@
     .header-p2 img{
         width: 100% !important;
     }
+
+    .main-body{
+        width: 100% !important;
+    }
 }
 
 .flex-header{
@@ -35,4 +39,5 @@
 .main-body{
     width: 100%;
     margin-top: 0.5rem;
+    width: 75%;
 }
