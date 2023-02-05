@@ -26,8 +26,23 @@
         background-color: #0300009d;
         border-radius: 1rem;
     }
+    ::-webkit-scrollbar{
+        width: 0.25rem;
+    }
+    
 }
 
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #cdcdcdcd;
+}
 #main{
     position: fixed;
     width: 100vw;
