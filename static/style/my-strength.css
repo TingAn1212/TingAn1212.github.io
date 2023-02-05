@@ -9,6 +9,9 @@
     .image-right{
         margin-left: 0 !important;
     }
+    .text-right{
+        left: 0 !important;
+    }
 }
 
 .flex-container{
@@ -41,6 +44,10 @@
 
 .image-right{
     margin-left: 50%;
+}
+
+.text-right{
+    left: 50%;
 }
 
 .image img{
