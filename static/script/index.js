@@ -7,6 +7,7 @@ $(function(){
     $("#info").append($("<div>").load("my-strength.html"));
     $("#info").append($("<div>").load("my-projects.html")); 
     $("#info").append($("<div>").load("contact-me.html"));
+    $("#info").append($("<div>").load("about-this-page.html"));
 });
 
 function toggle(){
