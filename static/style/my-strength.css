@@ -4,9 +4,10 @@
     }
     .text{
         position: initial !important;
+        transform: translate(0,0) !important;
     }
     .image{
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 }
 
