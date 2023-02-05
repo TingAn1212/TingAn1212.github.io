@@ -52,7 +52,7 @@
 
 @supports(scrollbar-color: red blue){
     *{
-        scrollbar-color: #00000058 #cdcdcdcd;
+        scrollbar-color: #cdcdcdcd #00000058 ;
         scrollbar-width: auto;
     }
 }
