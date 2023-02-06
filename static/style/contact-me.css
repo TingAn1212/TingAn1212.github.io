@@ -23,6 +23,7 @@
     cursor: pointer;
     letter-spacing: 0.07em;
     margin-bottom: 1rem;
+    text-decoration: none;
 }
 .portfolio-experiment a .text {
     font-family: proxima-nova, monospace;
