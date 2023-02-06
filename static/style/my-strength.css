@@ -2,7 +2,7 @@
     .flex-item{
         width: 100% !important;
     }
-    .text{
+    .item-text{
         position: initial !important;
         transform: translate(0,0) !important;
     }
@@ -35,7 +35,7 @@
     padding: 1rem;
 }
 
-.text{
+.item-text{
     position: absolute;
     top: 50%;
     text-align: center;
