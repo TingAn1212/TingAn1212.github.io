@@ -27,7 +27,6 @@
 .portfolio-experiment a .text {
     font-family: proxima-nova, monospace;
     transform: translate3d(0, 0.7em, 0);
-    display: block;
     transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
 }
 .portfolio-experiment a:after {
@@ -108,6 +107,11 @@
     transform-origin: left;
 }
 
+.image-flex{
+    display: flex;
+}
+
 .image-flex img{
-    height: 1.5rem;
+    height: 2;
+    margin-right: 5px;
 }
