@@ -4,10 +4,10 @@ var open = false;
 $(function(){
     $("#includeBackground").load("background.html"); 
     $("#info").append($("<div>").load("about-me.html"));
-    $("#info").append($("<div>").load("my-story.html")); 
     $("#info").append($("<div>").load("my-strength.html"));
     $("#info").append($("<div>").load("my-projects.html")); 
     $("#info").append($("<div>").load("contact-me.html"));
+    $("#info").append($("<div>").load("about-this-page.html"));
 });
 
 function toggle(){
@@ -38,6 +38,5 @@ async function select(item){
         $("#"+$(item).data("target")).fadeIn(500);
         await new Promise(r => setTimeout(r, 500));
         enable = true;
-        console.log($(item).data("target"));
     }
 }

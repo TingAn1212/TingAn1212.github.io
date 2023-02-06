@@ -1,0 +1,47 @@
+@media only screen and (max-width: 700px){
+    .header-p2 img{
+        width: 100% !important;
+    }
+
+    .main-body{
+        width: 100% !important;
+        font-size: 1rem !important;
+    }
+}
+
+.flex-header{
+    display:flex;
+    height: fit-content;
+}
+
+.header-p1{
+    width: 50%;
+}
+
+.header-p1 div{
+    position: relative;
+    height: 50%;
+}
+
+.header-p1 div h1{
+    position:absolute;
+    bottom:0;
+    font-size: calc(3rem + 3vw);
+}
+
+.header-p2{
+    width: 50%;
+}
+
+.header-p2 img{
+    width: 50%;
+}
+
+.main-body{
+    width: 100%;
+    margin-top: 0.5rem;
+    width: 75%;
+    font-size: 1.2rem;
+    height: 48vh;
+    overflow-y: auto;
+}
