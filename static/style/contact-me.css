@@ -15,12 +15,14 @@
 }
 .portfolio-experiment a {
     color: white;
-    display: inline-block;
+    display: block;
+    padding: 1rem;
     border: 3px solid transparent;
     position: relative;
     font-size: 1.5em;
     cursor: pointer;
     letter-spacing: 0.07em;
+    margin-bottom: 1rem;
 }
 .portfolio-experiment a .text {
     font-family: proxima-nova, monospace;
