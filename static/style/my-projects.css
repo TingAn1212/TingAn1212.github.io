@@ -1,3 +1,12 @@
+@media only screen and (max-width: 700px){
+    .item-desc{
+        height: 50vh !important;
+    }
+    .flex-item{
+        width: 100% !important;
+    }
+}
+
 .item-left p{
     display: block;
     text-align: center;
@@ -16,6 +25,6 @@
 }
 
 .item-desc{
-    height: calc(100% - 3rem - 1.5rem - 1rem);
+    height: 25vh;
     overflow-y: auto;
 }
