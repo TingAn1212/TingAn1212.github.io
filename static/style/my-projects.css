@@ -1,7 +1,20 @@
-.item-left{
-
+.item-left p{
+    display: block;
+    text-align: center;
 }
 
 .item-right img{
     width: 100%;
+}
+
+.item-title{
+
+}
+
+.item-short{
+    
+}
+
+.item-desc{
+    
 }
