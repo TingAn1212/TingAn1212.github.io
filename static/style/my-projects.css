@@ -16,5 +16,6 @@
 }
 
 .item-desc{
-    
+    height: calc(100% - 3rem - 1.5rem - 1rem);
+    overflow-y: scroll;
 }
