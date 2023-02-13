@@ -1,10 +1,11 @@
 @media only screen and (max-width: 700px){
-    .item-desc{
-        height: 50vh !important;
-    }
     .flex-item{
         width: 100% !important;
     }
+}
+
+.wrap{
+    flex-wrap: wrap-reverse;
 }
 
 .item-left p{
