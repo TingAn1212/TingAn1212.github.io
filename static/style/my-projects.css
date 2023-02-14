@@ -2,6 +2,12 @@
     .flex-item{
         width: 100% !important;
     }
+    .item-title{
+        font-size: 2rem !important;
+    }
+    .item-short{
+        font-size: 1.2rem !important;
+    }
 }
 
 .wrap{
