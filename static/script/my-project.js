@@ -1,7 +1,9 @@
 function hover(ele){
-    console.log("Hover")
+    var element = $(ele);
+    element.find(".item-img").attr("src",element.find(".item-img").data("target"));
 }
 
 function leave(ele){
-    console.log("Leave")
+    var element = $(ele);
+    element.find(".item-img").attr("src",element.find(".item-img").data("original"));
 }
