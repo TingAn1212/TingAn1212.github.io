@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    <link rel="stylesheet" href="../static/style/background.css">
+    <script src="../static/script/deviceDetection.js"></script>
+    <script src="../static/script/background.js"></script>
+    <div id="background">
+        <div class="cover"></div>
+    </div>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1030 height=440></canvas>
       <div id="unity-loading-bar">
@@ -17,6 +23,11 @@
         </div>
       </div>
       <div id="unity-warning" style="display:none"> </div>
+      <div id="unity-footer" style="display:none">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Made in Heaven</div>
+      </div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
