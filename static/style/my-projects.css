@@ -3,6 +3,7 @@
         width: 100% !important;
     }
     .item-title{
+        margin-top: -2rem;
         font-size: 2rem !important;
     }
     .item-short{
