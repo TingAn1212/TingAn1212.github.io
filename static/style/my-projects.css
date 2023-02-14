@@ -40,82 +40,12 @@
     letter-spacing: 0.07em;
     margin-bottom: 1rem;
     text-decoration: none;
-    margin-bottom: calc(0.5rem - 3px);
 }
 
-.effect a:after {
-    position: absolute;
-    content: '';
-    bottom: -3px;
-    left: calc(0.7em * 1.2);
-    right: calc(0.7em * 1.2);
-    height: 3px;
-    background: #ffffff;
-    transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
-    transform-origin: left;
-    margin-bottom: calc(0.5rem - 3px);
-}
-.effect .line {
-    position: absolute;
-    background: #ffffff;
-}
-.effect .line.-right, .effect .line.-left {
-    width: 3px;
-    bottom: -3px;
-    top: -3px;
-    transform: scale3d(1, 0, 1);
-}
-.effect .line.-top, .effect .line.-bottom {
-    height: 3px;
-    left: -3px;
-    right: -3px;
-    transform: scale3d(0, 1, 1);
-}
-.effect .line.-right {
-    right: -3px;
-    transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
-    transform-origin: top;
-}
-.effect .line.-top {
-    top: -3px;
-    transition: transform 0.08s linear 0.43s;
-    transform-origin: left;
-}
-.effect .line.-left {
-    left: -3px;
-    transition: transform 0.08s linear 0.51s;
-    transform-origin: bottom;
-}
-.effect .line.-bottom {
-    bottom: -3px;
-    transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
-    transform-origin: right;
+.effect-border{
+    background-color: #FFFFFF;
+    width: inherit;
+    height: inherit;
 }
 
-.effect a:hover:after, .effect a:active:after {
-    transform: scale3d(0, 1, 1);
-    right: -3px;
-    left: -3px;
-    transform-origin: right;
-    margin-bottom: calc(0.5rem - 3px);
-    transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
-}
-.effect a:hover .line, .effect a:active .line {
-    transform: scale3d(1, 1, 1);
-}
-.effect a:hover .line.-right, .effect a:active .line.-right {
-    transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
-    transform-origin: bottom;
-}
-.effect a:hover .line.-top, .effect a:active .line.-top {
-    transition: transform 0.08s linear 0.4s;
-    transform-origin: right;
-}
-.effect a:hover .line.-left, .effect a:active .line.-left {
-    transition: transform 0.08s linear 0.48s;
-    transform-origin: top;
-}
-.effect a:hover .line.-bottom, .effect a:active .line.-bottom {
-    transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
-    transform-origin: left;
-}
+.effect:hover{}
