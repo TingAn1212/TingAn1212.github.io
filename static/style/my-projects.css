@@ -49,8 +49,9 @@
     position: absolute;
     top: 0;
     z-index: -1;
+    transition: 1s;
 }
 
 .effect:hover .effect-border{
-    transform: scale(1.1);
+    transform: scale(1.05,1.1);
 }
