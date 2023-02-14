@@ -38,7 +38,7 @@
     font-size: 1.5em;
     cursor: pointer;
     letter-spacing: 0.07em;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     text-decoration: none;
 }
 .effect a .text {
@@ -84,12 +84,12 @@
     transform-origin: left;
 }
 .effect .line.-left {
-    left: 3px;
+    left: -3px;
     transition: transform 0.08s linear 0.51s;
     transform-origin: bottom;
 }
 .effect .line.-bottom {
-    bottom: 3px;
+    bottom: -3px;
     transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
     transform-origin: right;
 }
