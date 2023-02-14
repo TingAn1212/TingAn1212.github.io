@@ -35,7 +35,7 @@
     display: block;
     border: 3px solid transparent;
     position: relative;
-    font-size: 1.5em;
+    font-size: 0;
     cursor: pointer;
     letter-spacing: 0.07em;
     margin-bottom: 1rem;
@@ -51,4 +51,6 @@
     z-index: -1;
 }
 
-.effect:hover{}
+.effect:hover .effect-border{
+    transform: scale(1.1);
+}
