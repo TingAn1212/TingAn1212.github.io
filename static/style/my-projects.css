@@ -59,6 +59,7 @@
     top: 0;
     z-index: -1;
     transition: 0.5s;
+    border-radius: 0.1rem;
 }
 
 .effect:hover .effect-border{
