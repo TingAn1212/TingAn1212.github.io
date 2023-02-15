@@ -1,0 +1,67 @@
+@media only screen and (max-width: 700px){
+    .flex-item{
+        width: 100% !important;
+    }
+    .item-title{
+        margin-top: -2rem;
+        font-size: 1.8rem !important;
+    }
+    .item-short{
+        font-size: 1.2rem !important;
+        border-top: dotted #FFFFFF 1px;
+        border-bottom: dotted #FFFFFF 1px;
+    }
+}
+
+.wrap{
+    flex-wrap: wrap-reverse;
+}
+
+.item-left p{
+    display: block;
+    text-align: center;
+}
+
+.item-right img{
+    width: 100%;
+}
+
+.item-title{
+    font-size: 2.9rem;
+}
+
+.item-short{
+    font-size: 1.5rem;
+}
+
+.item-desc{
+    height: 25vh;
+    overflow-y: auto;
+}
+
+.effect a {
+    color: white;
+    display: block;
+    border: 3px solid transparent;
+    position: relative;
+    font-size: 0;
+    cursor: pointer;
+    letter-spacing: 0.07em;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.effect-border{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 0.2rem;
+}
+
+.effect:hover .effect-border{
+    transform: scale(1.05,1.1);
+}
