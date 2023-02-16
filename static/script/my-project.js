@@ -9,7 +9,9 @@ function hover(ele){
 function leave(ele){
     var element = $(ele);
     element.attr("src",element.data("original"));
-    element.css("height","40vh");
-    element.css("width","auto");
-    $("#B").css("width","40vh");
+    if (element.attr("id") == "A"){
+        element.css("height","40vh");
+        element.css("width","auto");
+        $("#B").css("width","40vh");
+    }
 }
