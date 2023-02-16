@@ -1,9 +1,11 @@
 function hover(ele){
     var element = $(ele);
     element.attr("src",element.data("target"));
-    element.css("height","auto");
-    element.css("width","100%");
-    $("#B").css("width","100%");
+    if (element.attr("id") == "A"){
+        element.css("height","auto");
+        element.css("width","100%");
+        $("#B").css("width","100%");
+    }
 }
 
 function leave(ele){
