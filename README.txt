@@ -1,6 +1,4 @@
 Hi, my name is Ting An.
-This repo contains my personal portfolio that is currently work in progress.
-It will soon be populated with more information.
 
 To contact me:
 
@@ -11,3 +9,6 @@ Email: wang_ting_an@students.edu.sg
 
 The webpage can be found at:
 https://tingan1212.github.io
+
+Last Updated:
+24/2/2023
