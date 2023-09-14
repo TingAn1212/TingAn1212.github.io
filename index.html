@@ -24,17 +24,29 @@
     </div>
     <div id="main">
         <div id="sidebar">
-            <div id="sidebar-control" onclick="toggle()">
-                <div class="sidebar-bar" id="bar-v"></div>
-                <div class="sidebar-bar" id="bar-h"></div>
+            <div id="sidebar-controls">
+                <div class="sidebar-control" id="main-control" onclick="toggleMaincontrol()">
+                    <div class="sidebar-bar" id="bar-v"></div>
+                    <div class="sidebar-bar" id="bar-h"></div>
+                </div>
+                <div class="sidebar-control" id="sub-control" onclick="toggleSubcontrol()">
+                    <div class="sidebar-bar" id="bar-1"></div>
+                    <div class="sidebar-bar" id="bar-2"></div>
+                    <div class="sidebar-bar" id="bar-3"></div>
+                </div>
             </div>
             <div id="sidebar-content">
-                <div class="sidebar-item" data-target="1" onclick="select(this)" style="background-color: #FFFFFF90; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">About Me</div>
-                <div class="sidebar-item" data-target="2" onclick="select(this)">My Strength</div>
-                <div class="sidebar-item" data-target="3" onclick="select(this)">My Achievements</div>
-                <div class="sidebar-item" data-target="4" onclick="select(this)">My Projects</div>
-                <div class="sidebar-item" data-target="5" onclick="select(this)">Contact Me</div>
-                <div class="sidebar-item" data-target="6" onclick="select(this)" style="border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem;">About This Page</div>
+                <div class="sidebar-item sidebar-item-main" data-target="1" onclick="select(this)" style="background-color: #FFFFFF90; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">About Me</div>
+                <div class="sidebar-item sidebar-item-main" data-target="3" onclick="select(this)">My Achievements</div>
+                <div class="sidebar-item sidebar-item-main" data-target="4" onclick="projectSelection()">Strength & Projects</div>
+                <div class="sidebar-item sidebar-item-main" data-target="5" onclick="select(this)">Contact Me</div>
+                <!-- <div class="sidebar-item sidebar-item-main" data-target="7" onclick="select(this)">Resume</div> -->
+                <div class="sidebar-item sidebar-item-main" data-target="6" onclick="select(this)" style="border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem;">About This Page</div>
+
+                <div class="sidebar-item sidebar-item-sub" data-target="Web_Development" onclick="selectSub(this)" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">Web Development</div>
+                <div class="sidebar-item sidebar-item-sub" data-target="Game_Development" onclick="selectSub(this)">Game Development</div>
+                <div class="sidebar-item sidebar-item-sub" data-target="Desktop_Mobile_Application" onclick="selectSub(this)">Desktop & Mobile Application</div>
+                <div class="sidebar-item sidebar-item-sub" data-target="Video_Editing" onclick="selectSub(this)" style="border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem;">Video Editing</div>
             </div>
         </div>
         <div id="info">
