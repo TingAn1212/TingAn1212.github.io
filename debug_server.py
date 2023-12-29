@@ -12,4 +12,4 @@ def load_page(page_name):
     return send_file(page_name)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
