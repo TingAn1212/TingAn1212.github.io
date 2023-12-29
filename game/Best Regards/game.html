@@ -16,7 +16,7 @@
         <div class="cover"></div>
     </div>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" style="width: 90vw; height: calc( 90vw * 0.5625 )"></canvas>
+      <canvas id="unity-canvas" style="width: calc( 80vh * 1.77777777 ); height: 80vh"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -80,7 +80,7 @@
       // Set this to false if you want to decouple this synchronization from
       // happening inside the engine, and you would instead like to size up
       // the canvas DOM size and WebGL render target sizes yourself.
-      // config.matchWebGLToCanvasSize = false;
+      config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -100,8 +100,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "90vw";
-        canvas.style.height = "calc( 90vw * 0.5625 )";
+        canvas.style.width = "calc( 80vh * 1.7777777777777777 )";
+        canvas.style.height = "80vh";
       }
 
       loadingBar.style.display = "block";
